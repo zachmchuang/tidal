@@ -1,0 +1,15 @@
+setcps 1
+
+d1 $ jux (slow 2) $ sound "arpy bd arpy bd sn bd bd sn" # room 0.9 # gain 0.6 # speed 0.5
+
+d2 $ n "[3 3] [2 2] [3 3] [4 4]" # s "kick" # gain 0.6
+
+d4 $ s "clap!2" # room 0.6 # gain 0.6
+
+d3 $ s "kick snare [kick kick] snare"
+
+d5 $ n (off 0.5 (|+7)"<c a f e>")
+	# sound "arpy"
+	# room 0.8
+
+d6 $ n (off 0.125 (|+ 7) $ off 0.125 (|+ 7) "<c*2 a(3,8) f(3,8,2) e*2>") # sound "supermandolin" # legato 2
