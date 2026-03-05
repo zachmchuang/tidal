@@ -1,0 +1,9 @@
+d1 $ n "[0 0] 0 [0 0] [0 0]" # s "cpu clap cpu clap"
+d2 $ n (off 0.125 (|+2) "0 ~ ~ [0 0]") # s "cpu2" # room 0.8
+d3 $ n "<2 [2*4] [4*4] [3*8]>" # s "dsynth" # legato 2
+d4 $ n (off 0.25 (|+0) "0 1 0 1") # s "rash"
+d5 $ s "hi [hi!2] hi hi"
+d6 $ s "claus"
+xfade 7 $ s "snare*4"
+xfade 7 $ s "snare*8"
+xfade 7 $ s "snare*16"
